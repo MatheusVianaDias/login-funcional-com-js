@@ -5,7 +5,7 @@ function logar() {
 
     if (login == "juliana" && senha == "nakama") {
         
-        location.href = "pagina02.html"
+        location.href = "principal.html"
     } else {swal({
         title: "Ei",
         text: "Erro no usuário ou senha",

@@ -226,3 +226,13 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+.aventura {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 45px;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 5px;
+}
