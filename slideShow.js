@@ -1,22 +1,21 @@
 'use strict';
 
 const images = [
-    { 'id': '1', 'url':'./img/maconhera.jpg' },
-    { 'id': '2', 'url':'./img/1000029382.jpg' },
-    { 'id': '3', 'url':'./img/1000030411.jpg' },
-    { 'id': '4', 'url':'./img/1000031255.jpg' },
-    { 'id': '5', 'url':'./img/1000059976.jpg' },
-    { 'id': '6', 'url':'./img/maconhera.jpg' },
-    { 'id': '7', 'url':'./img/1000029382.jpg' },
-    { 'id': '8', 'url':'./img/1000030411.jpg' },
-    { 'id': '9', 'url':'./img/1000031255.jpg' },
-    { 'id': '10', 'url':'./img/1000059976.jpg' },
-    { 'id': '11', 'url':'./img/maconhera.jpg' },
-    { 'id': '12', 'url':'./img/1000029382.jpg' },
-    { 'id': '13', 'url':'./img/1000030411.jpg' },
-    { 'id': '14', 'url':'./img/1000031255.jpg' },
-    { 'id': '15', 'url':'./img/1000059976.jpg' },
-    { 'id': '16', 'url':'./img/IMG-20220430-WA0042.jpg' },
+    { 'id': '1', 'url':'./img/1000059976.jpg' },
+    { 'id': '2', 'url':'./img/1000044583.jpg' },
+    { 'id': '3', 'url':'./img/1000043020.jpg' },
+    { 'id': '4', 'url':'./img/1000031651.jpg' },
+    { 'id': '5', 'url':'./img/IMG-20221124-WA0071.jpg' },
+    { 'id': '6', 'url':'./img/1000066715.jpg' },
+    { 'id': '7', 'url':'./img/1000031568.jpg' },
+    { 'id': '8', 'url':'./img/1000031255.jpg' },
+    { 'id': '9', 'url':'./img/1000030411.jpg' },
+    { 'id': '10', 'url':'./img/1000029382.jpg' },
+    { 'id': '12', 'url':'./img/IMG_20221226_153714_432.jpg' },
+    { 'id': '13', 'url':'./img/IMG-20220430-WA0042.jpg' },
+    { 'id': '14', 'url':'./img/IMG-20221214-WA0004.jpg' },
+    { 'id': '16', 'url':'./img/IMG-20230218-WA0024.jpg' },
+    { 'id': '17', 'url':'./img/maconhera.jpg' },
 ]
 
 const containerItems = document.querySelector('#container-items');
