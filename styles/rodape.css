@@ -1,0 +1,10 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background: linear-gradient(97.54deg,#000000 35.49%, #700700 165.37%);
+    padding: 1em;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+.tópicos {
+    background: linear-gradient(97.54deg, #000000 35.49%, #700700 165.37%);
+    text-align: center;
+    padding: 1em 0;
+
+}
+
+.tópicos__titulos {
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(68, 0, 253));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300px;
+    margin: 1em;
+}
+
+.tópicos__listas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tópicos__item {
+    margin: 2em 0.5em;
+}
+
+.tópicos__link {
+    color: white;
+    padding: 1em;
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}

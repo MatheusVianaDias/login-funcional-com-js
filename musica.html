@@ -1,44 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-    <title>Music Player</title>
-    <link rel="stylesheet" href="styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicas e letras</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
+    <link rel="stylesheet" href="musicas.css">
+    l
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
-    
+
+    <header>
+        <h2 class="logo"> <ion-icon name="musical-notes-sharp"></ion-icon></h2>
+        <h2 class="logo"> <ion-icon name="pause-circle-sharp"></ion-icon></h2>
+        <h2 class="logo"> <ion-icon name="musical-note-sharp"></ion-icon></h2>
+        <nav class="navigation">
+            <a href="#">Bem Vinda</a>
+            <a href="fotos.html">Fotos</a>
+            <a href="musica.html">Musicas</a>
+            <a href="index.html">Sign Out</a>
+        </nav>
+
+    </header>
+
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Taylor Swift</h2>
+        <div class="swiper">
 
 
-    <div class="player">
-
-        <div class="logo">
-            <i class='bx bx-music'></i>
-        </div>
-
-        <span id="musicName"></span>
-
-        <audio id="player" src=""></audio>
-        <div class="controls">
-            <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
-            <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
-            <button id="nextButton"><i class='bx bx-skip-next'></i></button>
-        </div>
-        <div class="footer">
-            <div class="progress-bar">
-                <div class="progress"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/Lavender_Haze_Music_Video-693223993-large.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/lavender-haze/traducao.html" target="_blank" rel="noopener noreferrer"><br>Lavender Haze</a></div>
+                <div class="swiper-slide"><img src="img/Shake It Off.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/shake-it-off/traducao.html" target="_blank" rel="noopener noreferrer"><br>Shake It Off</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/1372185/traducao.html" target="_blank" rel="noopener noreferrer"><br>You Belong With Me</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                
+                ...
             </div>
-            <div class="time">
-                <span id="currentTime">0:00</span>
-                <span id="duration">0:00</span>
-            </div>
+            <!-- If we need pagination -->
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
         </div>
-    </div>
-    <script type="module" src="scripts.js"></script>
-    
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Lana Del rey</h2>
+        <div class="swiper">
+
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                
+                ...
+            </div>
+            <!-- If we need pagination -->
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Taylor Swift</h2>
+        <div class="swiper">
+
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                <div class="swiper-slide"><img src="img/taylor-swift-blank-space-polaroid.jpg" >
+                    <a class="music" href="https://www.letras.mus.br/taylor-swift/blank-spaces/traducao.html" target="_blank" rel="noopener noreferrer"><br>Blank Space</a></div>
+                
+                ...
+            </div>
+            <!-- If we need pagination -->
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
 </body>
 
 </html>
